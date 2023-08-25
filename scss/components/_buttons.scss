@@ -1,0 +1,35 @@
+.white-btn {
+  width: 100%;
+  max-width: 104px;
+  padding: 13px 20px;
+  border: 2px solid $dark-light-color;
+  border-radius: 15px;
+  background-color: $dark-color;
+  color: $dark-light-color;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.white-btn:hover {
+  border-color: $dark-text-color;
+  color: $dark-text-color;
+  cursor: pointer;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.26));
+}
+.black-btn {
+  width: 100%;
+  max-width: 163px;
+  padding: 15px 25px;
+  border-radius: 15px;
+  background-color: $dark-text-color;
+  color: $dark-color;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: 0.3s;
+  border: 1px solid $dark-text-color;
+}
+.black-btn:hover {
+  border: 1px solid $dark-light-color;
+  background-color: white;
+  color: black;
+}
